@@ -13,4 +13,9 @@ public class ApiTeacherApplicationTests {
 		// TODO Auto-generated constructor stub
 	}
 
+	@Test
+	public void contextLoads() {
+	}
+	
+	
 }

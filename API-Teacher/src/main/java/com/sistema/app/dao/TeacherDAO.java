@@ -1,10 +1,9 @@
-package com.sistema.app.models.dao;
+package com.sistema.app.dao;
 
 import org.springframework.data.mongodb.repository.Query;
 import org.springframework.data.mongodb.repository.ReactiveMongoRepository;
 
-
-import com.sistema.app.models.documents.Teacher;
+import com.sistema.app.models.Teacher;
 
 import reactor.core.publisher.Flux;
 

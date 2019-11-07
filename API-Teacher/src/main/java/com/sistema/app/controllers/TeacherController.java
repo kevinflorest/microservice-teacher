@@ -18,8 +18,10 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.bind.support.WebExchangeBindException;
-import com.sistema.app.models.documents.Teacher;
-import com.sistema.app.models.service.TeacherService;
+
+import com.sistema.app.models.Teacher;
+import com.sistema.app.service.TeacherService;
+
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
 

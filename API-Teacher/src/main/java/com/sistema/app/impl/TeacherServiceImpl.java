@@ -1,10 +1,11 @@
-package com.sistema.app.models.service;
+package com.sistema.app.impl;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.sistema.app.models.dao.TeacherDAO;
-import com.sistema.app.models.documents.Teacher;
+import com.sistema.app.dao.TeacherDAO;
+import com.sistema.app.models.Teacher;
+import com.sistema.app.service.TeacherService;
 
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;

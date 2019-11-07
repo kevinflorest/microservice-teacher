@@ -9,8 +9,8 @@ import org.springframework.test.context.junit4.SpringRunner;
 @SpringBootTest
 public class ApiTeacherApplicationTests {
 
-	@Test
-	public void contextLoads() {
+	public ApiTeacherApplicationTests() {
+		// TODO Auto-generated constructor stub
 	}
 
 }
